@@ -10,6 +10,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [Docker Install](Ansible/pentest.yml)
 
+[Hosts](Ansible/hosts)
+
 [Elk Install](Ansible/install-EKL.yml)
 
 [Filebeat Install](Ansible/filebeat-playbook.yml)
