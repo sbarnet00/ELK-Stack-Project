@@ -9,8 +9,11 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ___playbook___ file may be used to install only certain pieces of it, such as Filebeat.
 
 ![Docker Install](Ansible/pentest.yml)
+
 ![Elk Install](Ansible/install EKL.yml)
+
 ![Filebeat Install](Ansible/filebeat-playbook.yml)
+
 ![Metricbeat Install}(Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
@@ -54,13 +57,13 @@ Machines within the network can only be accessed by __the jump box___.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes, but restricted | 37.19.213.123        |
-| Web-1    | No                  | 10.0.0.4             |
-| Web-2    | No                  | 10.0.0.4             |
-| ELK      | Yes, but restricted | 10.0.0.4             |
-| L-Bal    | Yes                 | 37.19.213.123        |
+| Name     | Publicly Accessible | Allowed IP Addresses    |
+|----------|---------------------|-------------------------|
+| Jump Box | Yes, but restricted | 37.19.213.123           |
+| Web-1    | No                  | 10.0.0.4                |
+| Web-2    | No                  | 10.0.0.4                |
+| ELK      | Yes, but restricted | 10.0.0.4, 37.19.213.123 |
+| L-Bal    | Yes                 | 37.19.213.123           |
 
 ### Elk Configuration
 
