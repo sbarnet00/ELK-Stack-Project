@@ -10,7 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 ![Docker Install](Ansible/pentest.yml)
 
-![Elk Install](Ansible/install EKL.yml)
+![Elk Install](Ansible/install-EKL.yml)
 
 ![Filebeat Install](Ansible/filebeat-playbook.yml)
 
@@ -79,7 +79,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker-PS](Diagrams/RunningAnsibleContainer.png)
+![Docker-PS](Diagrams/RunningELKContainer.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
