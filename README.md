@@ -8,13 +8,13 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ___playbook___ file may be used to install only certain pieces of it, such as Filebeat.
 
-![Docker Install](Ansible/pentest.yml)
+[Docker Install](Ansible/pentest.yml)
 
-![Elk Install](Ansible/install-EKL.yml)
+[Elk Install](Ansible/install-EKL.yml)
 
-![Filebeat Install](Ansible/filebeat-playbook.yml)
+[Filebeat Install](Ansible/filebeat-playbook.yml)
 
-![Metricbeat Install](Ansible/metricbeat-playbook.yml)
+[Metricbeat Install](Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
