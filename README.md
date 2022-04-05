@@ -53,10 +53,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | No                  | 37.19.213.123        |
+| Jump Box | Yes                 | 37.19.213.123        |
 | Web-1    | No                  | 10.0.0.4             |
 | Web-2    | No                  | 10.0.0.4             |
-| ELK      | No                  | 10.0.0.4             |
+| ELK      | Yes                 | 10.0.0.4             |
 | L-Bal    | Yes                 | 37.19.213.123        |
 
 ### Elk Configuration
