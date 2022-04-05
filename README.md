@@ -55,7 +55,7 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the __load balancer___ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the __load balancer__ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - 37.19.213.123 (my computer's public IP address)
 
 Machines within the network can only be accessed by __the jump box___.
