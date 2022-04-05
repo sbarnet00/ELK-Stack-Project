@@ -14,7 +14,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 ![Filebeat Install](Ansible/filebeat-playbook.yml)
 
-![Metricbeat Install}(Ansible/metricbeat-playbook.yml)
+![Metricbeat Install](Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
