@@ -38,9 +38,13 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancer advantages:
  -ensures that the web application will be highly available by delegating traffic to available servers and avoid         overloading and prevent DDOS attacks 
+ 
  -restricts access to the rest of the internal network
+ 
  -control security for multiple servers in an umbrella instead of per server, fully configurable
+ 
  -logs/documents traffic with the ability to deny access(IDS/IPS function)
+
 
 The jump box acts as a gateway to the backend of the servers, via secured public access, to remotely manage, create/scale, udpate, modify servers, in addition to deploying new containers/software as desired.
 
