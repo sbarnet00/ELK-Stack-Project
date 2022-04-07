@@ -38,15 +38,15 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancer advantages:
 
- -ensures that the web application will be highly available by delegating traffic to available servers and avoid         overloading and prevent DDOS attacks 
+ - ensures that the web application will be highly available by delegating traffic to available servers and avoid         overloading and prevent DDOS attacks 
  
- -restricts access to the rest of the internal network
+ - restricts access to the rest of the internal network
  
- -control security for multiple servers in an umbrella instead of per server, fully configurable
+ - control security for multiple servers in an umbrella instead of per server, fully configurable
  
- -logs/documents traffic with the ability to deny access(IDS/IPS function)
+ - logs/documents traffic with the ability to deny access(IDS/IPS function)
  
- -increased fault tolerance and redundancy
+ - increased fault tolerance and redundancy
 
 
 The jump box acts as a gateway to the backend of the servers, via secured public access, to remotely manage, create/scale, udpate, modify servers, in addition to deploying new containers/software as desired.
@@ -109,6 +109,7 @@ We have installed the following FileBeats and Metricbeats on these machines whic
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+- Enter the Ansible control node/container
 - Copy the YAML playbook file to /etc/Ansible and specify group of target machines as defined in the hosts file
 - Update the hosts file to include the target machines if not already listed
 - Run the playbook, and navigate to http://ELKip:5601/app/kibana (in my case http://20.203.153.131:5601/app/kibana) to check that the installation worked as expected.
@@ -120,16 +121,16 @@ SSH into the control node and follow the steps below:
 
 Commands used to run the Ansible configuration:
 
--access the Jumpbox with $ ssh redadmin@20.213.88.91
+- access the Jumpbox with $ ssh redadmin@20.213.88.91
 
--list containers if Ansible container name unknown with $ sudo docker list -a
+- list containers if Ansible container name unknown with $ sudo docker list -a
 
--start ansible container with $ sudo docker start 'name of container' (in this case jolly_joliot)
+- start ansible container with $ sudo docker start 'name of container' (in this case jolly_joliot)
 
--enter container with $ sudo docker attach 'name of container' (in this case jolly_joliot)
+- enter container with $ sudo docker attach 'name of container' (in this case jolly_joliot)
 
 - go to the ansible playbook directory with $ cd /etc/ansible
 
--launch playbook with $ ansible-playbook *.yml (*= name of playbook)
+- launch playbook with $ ansible-playbook *.yml (*= name of playbook)
 
--confirm error free deployment, or troubleshoot as necessary
+- confirm error free deployment, or troubleshoot as necessary
