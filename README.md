@@ -106,8 +106,8 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the target machines if not already listed
 - Run the playbook, and navigate to http://ELKip:5601/app/kibana (in my case http://20.203.153.131:5601/app/kibana) to check that the installation worked as expected.
 
-![Filebeat Successful]
+![Filebeat Successful](/Anisble/filebeatsuccess.png)
 
-![Metricbeat Successful]
+![Metricbeat Successful](/Ansible/metricbeatsuccess.png)
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
