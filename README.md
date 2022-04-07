@@ -37,6 +37,7 @@ The files noted above were used to configure the network depicted below.
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancer advantages:
+
  -ensures that the web application will be highly available by delegating traffic to available servers and avoid         overloading and prevent DDOS attacks 
  
  -restricts access to the rest of the internal network
