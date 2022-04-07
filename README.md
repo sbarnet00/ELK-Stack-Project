@@ -115,4 +115,19 @@ SSH into the control node and follow the steps below:
 
 ![Metricbeat Successful](/Ansible/metricbeatsuccess.png)
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
+Commands used to run the Ansible configuration:
+
+-access the Jumpbox with $ ssh redadmin@20.213.88.91
+
+-list containers if Ansible container name unknown with $ sudo docker list -a
+
+-start ansible container with $ sudo docker start 'name of container' (in this case jolly_joliot)
+
+-enter container with $ sudo docker attach 'name of container' (in this case jolly_joliot)
+
+- go to the ansible playbook directory with $ cd /etc/ansible
+
+-launch playbook with $ ansible-playbook *.yml (*= name of playbook)
+
+-confirm error free deployment, or troubleshoot as necessary
