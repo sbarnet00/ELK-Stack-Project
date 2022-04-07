@@ -45,6 +45,8 @@ Load balancer advantages:
  -control security for multiple servers in an umbrella instead of per server, fully configurable
  
  -logs/documents traffic with the ability to deny access(IDS/IPS function)
+ 
+ -increased fault tolerance and redundancy
 
 
 The jump box acts as a gateway to the backend of the servers, via secured public access, to remotely manage, create/scale, udpate, modify servers, in addition to deploying new containers/software as desired.
