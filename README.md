@@ -42,7 +42,7 @@ Load balancer advantages:
  
  - restricts access to the rest of the internal network
  
- - control security for multiple servers in an umbrella instead of per server, fully configurable
+ - control security for multiple servers in a fully configurable umbrella instead of per server 
  
  - logs/documents traffic with the ability to deny access(IDS/IPS function)
  
