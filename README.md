@@ -66,7 +66,7 @@ The configuration details of each machine may be found below.
 
 Only the load balancer machine can accept connections from the Internet. Access to this machine is currently only allowed from the following IP addresses:37.19.213.123:80 (my computer's public IP address). The machines on the internal network are not exposed to the public Internet.
 
-Machines within the network can only be accessed via the jump box. The ELK vm accessible from the jump box(10.0.0.4:22) or Public Internet, to which access is restricted toonly my public IP address 37.19.213.123:22.
+Machines within the network can only be accessed via the jump box. The ELK vm accessible from the jump box(10.0.0.4:22) or Public Internet, to which access is restricted to only my public IP address 37.19.213.123:22.
 
 A summary of the access policies in place can be found in the table below.
 
