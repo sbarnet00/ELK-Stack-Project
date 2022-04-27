@@ -13,9 +13,9 @@ This document contains the following details:
 
 The files below have been tested and used to generate a live ELK deployment on Azure cloud servers. They can be used to either recreate the entire deployment pictured in the next section. Portions of these playbooks can also be used to deploy individual items, such as Filebeat.
 
-[Docker Install](Ansible/pentest.yml)
+[Docker Install](Ansible/Pentest.yml)
 
-[Hosts](Ansible/hosts)
+[Hosts](Ansible/Hosts)
 
 [Elk Install](Ansible/install-EKL.yml)
 
