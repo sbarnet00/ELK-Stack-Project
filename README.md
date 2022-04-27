@@ -17,7 +17,7 @@ The files below have been tested and used to generate a live ELK deployment on A
 
 [Hosts](Ansible/Hosts)
 
-[Elk Install](Ansible/install-EKL.yml)
+[Elk Install](Ansible/install-ELK.yml)
 
 [Filebeat Install](Ansible/filebeat-playbook.yml)
 
