@@ -60,7 +60,7 @@ The configuration details of each machine may be found below.
 | Jump Box    | Gateway       | 10.0.0.4, 20.213.88.91   | Linux            |
 | Web-1       | Server        | 10.0.0.5                 | Linux            |
 | Web-2       | Server        | 10.0.0.6                 | Linux            |
-| ELW         | Server        | 10.1.0.4, 20.203.153.131 | Linux            |
+| ELK         | Server        | 10.1.0.4, 20.203.153.131 | Linux            |
 | Red-Team-LB | Load Balancer | 20.213.78.90             | N/A              |
 
 ### Access Policies
